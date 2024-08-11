@@ -183,3 +183,20 @@ h4{
         font-weight: 400;
     }
 /* social media number section end here */
+
+footer{
+    background: rgba(11, 13, 23, 1);
+    margin: 10rem auto 0;
+}
+.footer-container{
+    padding: 5rem 0 10rem;
+    text-align: center;
+}
+.footer-container p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    letter-spacing: 0%;
+    color: rgb(255, 255, 255);
+    margin-top: 3rem;
+}
