@@ -112,8 +112,7 @@ h3{
     padding-top: 8rem;
 
 }
-
-/* recipies section start here */
+ /* recipies section design start here */
 .recipies{
     margin: 10rem auto;
 }
@@ -156,3 +155,31 @@ h4{
     letter-spacing: 0%;
     color: rgb(24, 25, 31);
 }
+/* recipies section design end here */
+
+/* social media number section start here */
+.social-media-number{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    place-items: center;
+
+    padding: 5rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+    .media-number{
+        text-align: left;
+    }
+    .media-number h4{
+        font-size: 4.8rem;
+        line-height: 6.4rem;
+        font-weight: 700;
+    }
+    .media-number p{
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        font-weight: 400;
+    }
+/* social media number section end here */
